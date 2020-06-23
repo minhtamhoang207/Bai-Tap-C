@@ -1,8 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-//#define MAX 1000000
-//char a[MAX];
-//char b[MAX];
 int main(){
     char a[100];
     char b[100];

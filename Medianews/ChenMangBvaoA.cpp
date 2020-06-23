@@ -10,13 +10,13 @@ int main(){
     int index=0;
     cin >> arrA;
     cin >> arrB;
-    cin >> n;
     for(int i=0;i<arrA;i++){
         cin >> a[i];
     }
     for(int i=0;i<arrB;i++){
         cin >> b[i];
     }
+    cin >> n;
     for (int i=0; i<n ;i++){
         cout << a[i] << " ";
     }

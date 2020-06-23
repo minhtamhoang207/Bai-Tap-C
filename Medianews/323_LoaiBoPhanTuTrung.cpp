@@ -6,7 +6,6 @@ int b[X];
 int main(){
     int n;
     cin >> n;
-    int index=0;
     for(int i=0; i<n; i++){
         cin >> a[i];
     }
@@ -19,10 +18,6 @@ int main(){
                     a[j]=-1;
                 }
             }
-//            if(isChecked==true){
-//                b[index]=a[i];
-//                index++;
-//            }
         }
     }
     for(int i=0; i<n; i++){

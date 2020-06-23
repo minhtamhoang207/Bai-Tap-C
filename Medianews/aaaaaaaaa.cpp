@@ -1,27 +1,21 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
+#define MAX 100000
+int a[MAX];
+int b[MAX];
 int main(){
-    int a,b,dem=0;
-    cin >> a >> b;
-    int temp;
-    if(a>b){
-        temp = a;
+    int arrA, arrB;
+    int n;
+    cin >> arrA;
+    cin >> arrB;
+    cin >> n;
+    for(int i=0;i<arrA;i++){
+        cin >> a[i];
     }
-    else temp =b;
-    for(int i=1; i<=a; i++){
-        int count =0;
-        for(int j = temp; j >=1; j--){
-            cout << j;
-            count++;
-            if(count==b) break;
-        }
-        int temp2 = 2;
-        while(count<b){
-            cout << temp2;
-            count++;
-            temp2++;
-        }
-        temp--;
-        cout << endl;
+    for(int j=0;j<arrB;j++){
+        cin >> b[j];
+    }
+    for (int i=0 ; i<arrA; i++){
+        cout << a[i];
     }
 }
